@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*START OF THE STYLING FOR THE HEADER*/
+h4,
+ul,
+li {
+    display:inline;
+}
+nav {
+    float:right;
+}
+
+#navigation {
+    background-color: black;
+    position:fixed;
+    color:white;
+    width: 100%;
+    padding: 25px;
+}
+a {
+    padding: 10px;
+    text-decoration: none;
+    color:yellow;
+}
+a:hover {
+    color:aqua;
+}
+/*ENd OF STYLING FOR THE HEADER*/
