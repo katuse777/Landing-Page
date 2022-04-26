@@ -6,3 +6,36 @@ input {
     padding:8px;
     margin-bottom: 16px;
 }
+body{
+    height:100vh;
+    background-image: url("../pictures/crane-houses-g74cc38791_1920.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#sign-up {
+    width:50%;
+    height: 40vh;
+    margin:150px auto;
+    background-color: darkgray;
+    opacity: 0.9;
+    border-radius: 14px;
+    color: black;
+    padding: 50px;
+}
+#submit {
+    background-color: aqua;
+    color: black;
+    padding: 8px;
+    border-radius: 5px;
+    border-width: 0;
+}
+a {
+    padding: 8px;
+    border-radius: 5px;
+    background-color:cyan;
+    color: orangered;
+}
+a:hover {
+    background-color:orangered;
+    color: cyan;
+}
