@@ -56,8 +56,13 @@ h1 {
 /*START OF STYLING FOR THE MAIN*/
 /*start of styling for the information-ID*/
 img {
-    max-width: 300px;
+    width:100%; 
 } 
+#photo-gallery {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
 
 /*end of styling for the information-ID*/
 /*END OF STYLING FOR THE MAIN*/
