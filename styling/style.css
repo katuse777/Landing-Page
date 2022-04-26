@@ -40,7 +40,7 @@ h1 {
     color:violet;
     font-weight: 900;
     text-align: center;
-    z-index: 1;
+    z-index: 0;
     position: relative;
     top: 400px;
 }
@@ -57,12 +57,54 @@ h1 {
 /*start of styling for the information-ID*/
 img {
     width:100%; 
-} 
+}
+h3 {
+    color: cyan;
+}
+#information {
+    padding:200px;
+    text-align: center;
+    background-color:indianred ;
+    color: white;
+    font-size: large;
+    font-weight: 700;
+}
+/*end of styling for the information-ID*/ 
+/*styling for the photo-gallery ID*/
 #photo-gallery {
     display:grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+    background-color: black;
+    color: whitesmoke;
 }
+figcaption {
+    text-align: center;
+    font-size: 16px;
+}
+/*end of styling for the photo-gallery ID*/
+/*styling for the article*/
 
-/*end of styling for the information-ID*/
+article {
+    padding: 100px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 30vh;
+}
+article a {
+    color:bisque;
+    text-decoration: underline;
+}
+/*end of styling for the article*/
+
 /*END OF STYLING FOR THE MAIN*/
+
+/*STYLING FOR THE FOOTER*/
+footer {
+    display:inline;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+/*END OF STYLING FOR THE FOOTER*/
