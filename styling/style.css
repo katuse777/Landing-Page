@@ -2,9 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /*START OF THE STYLING FOR THE HEADER*/
+/*styling for the navigation bar*/
 h4,
 ul,
 li {
@@ -29,4 +31,24 @@ a {
 a:hover {
     color:aqua;
 }
+/*end of styling for the navigation bar*/
+
+
+/*styling for the welcome section*/
+h1 {
+    color:violet;
+    font-weight: 900;
+    text-align: center;
+    z-index: 1;
+    position: relative;
+    top: 400px;
+}
+#welcome {
+    width:100%;
+    height:100vh;
+    background-image: url('../pictures/buildings-g01d6a936c_1920.jpg');
+    z-index: -1;
+}
+/*end of stylig for welcome section*/
+
 /*ENd OF STYLING FOR THE HEADER*/
