@@ -34,8 +34,9 @@ a:hover {
 /*end of styling for the navigation bar*/
 
 
-/*styling for the welcome section*/
+/*styling for the welcome-ID*/
 h1 {
+    font-size: larger;
     color:violet;
     font-weight: 900;
     text-align: center;
@@ -49,6 +50,14 @@ h1 {
     background-image: url('../pictures/buildings-g01d6a936c_1920.jpg');
     z-index: -1;
 }
-/*end of stylig for welcome section*/
+/*end of styling for welcome-ID*/
+/*END OF STYLING FOR THE HEADER*/
 
-/*ENd OF STYLING FOR THE HEADER*/
+/*START OF STYLING FOR THE MAIN*/
+/*start of styling for the information-ID*/
+img {
+    max-width: 300px;
+} 
+
+/*end of styling for the information-ID*/
+/*END OF STYLING FOR THE MAIN*/
